@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
+  base: '/Cello_Geo/', // Set base path for GitHub Pages deployment
   plugins: [
     react(),
     tsconfigPaths(),
